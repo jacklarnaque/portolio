@@ -32,10 +32,16 @@ typewriter.typeString('Freelance')
   .typeString('<span style="color: #FFDF00;">JavaScript</span>')
   .pauseFor(1000)
   .deleteChars(10)
-  .typeString('<span style="color: #777BB3;">Php</span>')
+  .typeString('<span style="color: #777BB3;">WordPress</span>')
   .pauseFor(1000)
-  .deleteChars(3)
-  .typeString('<span style="color: #fff;">Symfony</span>')
+  .deleteChars(9)
+  .typeString('<span style="color: #fff;">React</span>')
+  .pauseFor(1000)
+  .deleteChars(5)
+  .typeString('<span style="color: #9c113d;">English</span>')
+  .pauseFor(1000)
+  .deleteChars(7)
+  .typeString('<span style="color: #240a88;">French</span>')
   .pauseFor(1000)
   .start();
 
@@ -71,7 +77,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
 
-L.marker([43.212601, 2.355970]).addTo(map)
-    .bindPopup('Je suis pas loin !')
+L.marker([51.580963720265295, -0.09724848096061173]).addTo(map)
+    .bindPopup('Im close !')
     .openPopup();
   

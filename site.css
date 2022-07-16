@@ -209,6 +209,7 @@ a.nav-link.active{
 .footer-page{
     background-color: #181818;
     padding: 30px;
+    color: #240a88;
 }
 
 
@@ -224,4 +225,8 @@ a.nav-link.active{
     /* The height is 400 pixels */
     width: 100%;
     /* The width is the width of the web page */
+  }
+
+  .text-custom {
+    color: #e65f78 !important;
   }
