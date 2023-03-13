@@ -47,13 +47,13 @@ typewriter.typeString('Freelance')
 
 var r = document.querySelector('body');
 
-var map = L.map('map').setView([43.781277052281865, 4.217881228620119], 5);
+var map = L.map('map').setView([51.589605, -0.111379], 5);
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
 
-L.marker([43.781277052281865, 4.217881228620119]).addTo(map)
+L.marker([51.589605, -0.111379]).addTo(map)
     .bindPopup('Im close !')
     .openPopup();
   
